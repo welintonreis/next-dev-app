@@ -1,7 +1,5 @@
 import React from "react";
 
-const Header = () => {
-  return <Header>Teste de Aplicativo Com Next JS</Header>;
-};
-
-export default Header;
+export default function Header() {
+  return <h1>Creating a first Next JS App </h1>;
+}
